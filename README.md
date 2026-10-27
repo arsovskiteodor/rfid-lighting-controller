@@ -5,7 +5,12 @@ course (La Salle, 2024–25). A user taps an RFID card on entry, and six lights 
 brightness levels. Tapping again turns everything off. Each user can change their preferences from a keypad,
 and a serial menu on a PC shows the system state.
 
-![Board, top view](docs/board_above.jpeg)
+## Demo
+
+![Demo: tapping an RFID card loads the user's light profile, and the serial menu shows the system state](docs/demo.gif)
+
+A card is tapped on the reader, the lights fade to that user's saved levels, and the LCD and the serial
+menu on the PC update to match.
 
 ## Features
 
